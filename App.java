@@ -89,7 +89,7 @@ public class App extends Application{
         }
     }
     
-    //400ミリ秒ごとに描画（viewメソッド）する処理
+    //100ミリ秒ごとに描画（viewメソッド）する処理
     public void roopView() throws ParseException {
         Timer timer = new Timer(false);
 		TimerTask task = new TimerTask(){
